@@ -1,6 +1,10 @@
 import requests
 import streamlit as st
 
+st.set_page_config(
+    "AdvancedSlimePaperDownloader"
+)
+
 st.write("# AdvancedSlimePaper Downloader")
 
 BASE_URL = "https://api.infernalsuite.com/v1/projects/asp/"
