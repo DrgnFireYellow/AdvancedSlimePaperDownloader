@@ -2,7 +2,8 @@ import requests
 import streamlit as st
 
 st.set_page_config(
-    "AdvancedSlimePaperDownloader"
+    "AdvancedSlimePaperDownloader",
+    "icon.png"
 )
 
 st.write("# AdvancedSlimePaper Downloader")
